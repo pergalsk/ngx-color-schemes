@@ -1,6 +1,8 @@
 {
   "name": "ngx-color-schemes",
-  "version": "0.0.0",
+  "version": "1.0.1",
+  "author": "Peter Gál",
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +10,19 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "description": "Angular library for easy handling of dark/light mode in the browser.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pergalsk/ngx-color-schemes.git"
+  },
+  "keywords": [
+    "Angular",
+    "library",
+    "browser",
+    "color schemes",
+    "dark mode",
+    "themes"
+  ],
   "dependencies": {
     "@angular/animations": "^14.2.0",
     "@angular/common": "^14.2.0",
