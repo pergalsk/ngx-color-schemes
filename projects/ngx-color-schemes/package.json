@@ -1,6 +1,6 @@
 {
   "name": "ngx-color-schemes",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Angular library for easy handling of dark/light mode in the browser.",
   "keywords": [
     "Angular",
