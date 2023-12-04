@@ -92,8 +92,7 @@ export class NgxColorSchemesComponent implements AfterViewInit, OnDestroy {
     > = this.container.createComponent<
       NgxIconDarkComponent | NgxIconLightComponent | NgxIconSystemComponent
     >(iconComponent);
-    // componentRef.setInput('size', this.size); // @todo after upgrade to angular 14.1.0+
-    componentRef.instance.size = this.size;
+    componentRef.setInput('size', this.size);
     this.cdr.detectChanges();
   }
 
