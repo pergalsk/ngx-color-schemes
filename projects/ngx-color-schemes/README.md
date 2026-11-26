@@ -2,6 +2,13 @@
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.0.
 
+## Compatibility
+
+| ngx-color-schemes | Angular |
+|---|---|
+| 2.x | 22+ |
+| 1.x | 17 |
+
 ## Code scaffolding
 
 Run `ng generate component component-name --project ngx-color-schemes` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngx-color-schemes`.

@@ -24,6 +24,8 @@ import { NgxIconSystemComponent } from './icon-system';
 
 @Component({
   selector: 'ngx-color-schemes',
+  // @angular/core v19: components are standalone by default
+  standalone: false,
   template: `<ng-container #container></ng-container>`,
   host: {
     '(click)': 'onClick()',
