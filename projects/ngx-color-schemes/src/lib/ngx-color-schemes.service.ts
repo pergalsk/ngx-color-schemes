@@ -1,5 +1,5 @@
-import { Injectable, Inject, Optional } from '@angular/core';
-import { DOCUMENT } from '@angular/common';
+// @angular/core v20: DOCUMENT moved from @angular/common to @angular/core
+import { Injectable, Inject, Optional, DOCUMENT } from '@angular/core';
 import {
   Observable,
   Observer,

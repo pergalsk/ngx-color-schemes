@@ -20,4 +20,10 @@ describe('NgxColorSchemesComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should render the icon with the given size', () => {
+    const svg: SVGElement | null = fixture.nativeElement.querySelector('svg');
+    expect(svg).toBeTruthy();
+    expect(svg?.getAttribute('width')).toBe('32');
+  });
 });

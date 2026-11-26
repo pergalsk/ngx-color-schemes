@@ -3,6 +3,8 @@ import { NgxIconAbstract } from './ngx-color-schemes.types';
 
 @Component({
   selector: 'ngx-icon-dark',
+  // @angular/core v19: components are standalone by default
+  standalone: false,
   template: `<svg
     xmlns="http://www.w3.org/2000/svg"
     class="ngx-icon-dark"
