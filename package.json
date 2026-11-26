@@ -15,22 +15,22 @@
     "url": "git+https://github.com/pergalsk/ngx-color-schemes.git"
   },
   "dependencies": {
-    "@angular/animations": "^17.0.8",
-    "@angular/common": "^17.0.8",
-    "@angular/compiler": "^17.0.8",
-    "@angular/core": "^17.0.8",
-    "@angular/forms": "^17.0.8",
-    "@angular/platform-browser": "^17.0.8",
-    "@angular/platform-browser-dynamic": "^17.0.8",
-    "@angular/router": "^17.0.8",
+    "@angular/animations": "^17.3.12",
+    "@angular/common": "^17.3.12",
+    "@angular/compiler": "^17.3.12",
+    "@angular/core": "^17.3.12",
+    "@angular/forms": "^17.3.12",
+    "@angular/platform-browser": "^17.3.12",
+    "@angular/platform-browser-dynamic": "^17.3.12",
+    "@angular/router": "^17.3.12",
     "rxjs": "~7.8.2",
     "tslib": "^2.9.1",
     "zone.js": "~0.14.10"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.0.8",
-    "@angular/cli": "~17.0.10",
-    "@angular/compiler-cli": "^17.0.8",
+    "@angular-devkit/build-angular": "^17.3.17",
+    "@angular/cli": "~17.3.17",
+    "@angular/compiler-cli": "^17.3.12",
     "@types/jasmine": "~4.0.0",
     "jasmine-core": "~4.3.0",
     "karma": "~6.4.4",
@@ -38,7 +38,7 @@
     "karma-coverage": "~2.2.1",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.3.0",
-    "ng-packagr": "^17.0.3",
+    "ng-packagr": "^17.3.0",
     "typescript": "~5.2.2"
   }
 }
