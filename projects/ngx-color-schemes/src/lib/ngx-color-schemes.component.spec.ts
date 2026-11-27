@@ -8,7 +8,7 @@ describe('NgxColorSchemesComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NgxColorSchemesComponent ]
+      imports: [ NgxColorSchemesComponent ]
     })
     .compileComponents();
 

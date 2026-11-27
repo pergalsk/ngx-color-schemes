@@ -5,13 +5,26 @@ import {
   ModuleWithProviders,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgxIconDarkComponent } from './icon-dark';
+import { NgxIconLightComponent } from './icon-light';
+import { NgxIconSystemComponent } from './icon-system';
 import { NgxColorSchemesComponent } from './ngx-color-schemes.component';
 import { ColorSchemeConfig } from './ngx-color-schemes.types';
 
 @NgModule({
-  declarations: [NgxColorSchemesComponent],
-  imports: [CommonModule],
-  exports: [NgxColorSchemesComponent],
+  imports: [
+    CommonModule,
+    NgxIconDarkComponent,
+    NgxIconLightComponent,
+    NgxIconSystemComponent,
+    NgxColorSchemesComponent,
+  ],
+  exports: [
+    NgxIconDarkComponent,
+    NgxIconLightComponent,
+    NgxIconSystemComponent,
+    NgxColorSchemesComponent,
+  ],
 })
 export class NgxColorSchemesModule {
   constructor(@Optional() @SkipSelf() parentModule: NgxColorSchemesModule) {
